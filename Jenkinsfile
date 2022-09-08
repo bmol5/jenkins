@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Build') {
       steps {
-      sh 'echo "Hello WORLD"'
+      sh 'echo "H WORLD"'
       sh '''
         echo "Thi will list current dir content from latest"
         ls -lh
